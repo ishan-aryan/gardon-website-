@@ -1,0 +1,21 @@
+function changeimgsrc() {
+  var image = document.querySelector("#myimage");
+  if (window.innerWidth <= 954) {
+    image.src = "square-cut.png";
+  } else {
+    image.src = "complete-white-part-logo.png";
+  }
+}
+
+window.onload = changeimgsrc;
+window.onresize = changeimgsrc;
+
+let gripLines = document.querySelector(".fa-grip-lines");
+let vertNav = document.querySelector(".white-part-mid-section-sub");
+
+gripLines.addEventListener("click", () => {
+    vertNav.classList.toggle('bring-nav-bar');
+});
+
+
+

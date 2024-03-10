@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home One || gardon || gardon HTML5 Template</title>
+    <link rel="icon" type="" href="logo-1.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="page1">
+      <div id="slider-image-div">
+        <img src="grass.jpg" class="image1" alt="" />
+        <img src="garden.jpg" class="image2" alt="">
+        </div>
+        <nav>
+          <div class="nav-part1">
+            <div id="nleft">
+              <div class="nleft-div1">
+                <i class="fa-solid fa-phone"></i>
+                <p>+92 (666) 888 0000</p>
+              </div>
+              <div class="nleft-div2">
+                <i class="fa-solid fa-envelope"></i>
+                <p>hello@gardon.com</p>
+              </div>
+            </div>
+            <div id="nright">
+              <i class="fa-solid fa-clock"></i>
+              <p>&nbsp;Mon - Fri: 9:00 - 19:00/ Closed on weekends&nbsp;</p>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+          <div class="nav-part2">
+            <div class="white-part-img">
+              <img src="complete-white-part-logo.png" id="myimage" alt="" />
+            </div>
+            <div class="white-part-mid-section ">
+              <i class="fa-solid fa-grip-lines"></i>
+              <div class="white-part-mid-section-sub">
+                <a href="#" class="delay-vanish" id="home">Home</a>
+              <a href="#" class="delay-vanish" id="about">About</a>
+              <a href="#" class="delay-vanish" id="services">Services</a>
+              <a href="#" class="delay-vanish" id="projects">Projects</a>
+              <a href="#" class="delay-vanish" id="pages">Pages</a>
+              <a href="#" class="delay-vanish" id="blog">Blog</a>
+              <a href="#" class="delay-vanish" id="shop">Shop</a>
+              <a href="#" class="delay-vanish" id="contact">Contact</a>
+              </div>
+              <button>
+                Get Free Quote
+              </button>
+            </div>
+            <div class="white-part-right-section">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </nav>
+        <div id="page1-text-container">
+          <h4>Hassle-free garden transformations</h4>
+          <h1>
+            Make dream <br> gardening 
+          </h1>
+          <button>Get Free Quote</button>
+        </div>
+        <div id="slider-buttons">
+          <div class="button-left"><i class="fa-solid fa-arrow-left"></i></div>
+          <div class="button-right"><i class="fa-solid fa-arrow-right-long"></i></div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
